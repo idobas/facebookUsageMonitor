@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var timeFromLastVisitInHours = timeFromLastVisitInMinutes/60;
         var timeFromLastVisitInMinutesRemain = (timeFromLastVisitInHours % 1) * 60;
         createAndAppendElement(Math.floor(timeFromLastVisitInHours) + " Hours, " + Math.floor(timeFromLastVisitInMinutesRemain) + " minutes", "h3");
-        if (timeFromLastVisitInHours === 0) {
+        if (Math.floor(timeFromLastVisitInHours) === 0) {
           createAndAppendElement("That is less than 1 hour - too much facebook!", "h4");
           createAndAppendImage("angry.png");
         }

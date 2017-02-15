@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       else {
-        createAndAppendParagraph("You haven't visited facebook since the begining of time");
+        createAndAppendParagraph("You haven't visited facebook since the begining of time!", "h3");
+        createAndAppendImage("happy.jpg");
       }
     });
 

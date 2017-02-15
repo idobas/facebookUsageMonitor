@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook usage monitor",
+  "description": "This extension monitors the time from the last navigation to facebook.com",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "history"
+   ]
+}

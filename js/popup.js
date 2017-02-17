@@ -7,11 +7,11 @@ var sentencesArray = [
 ]
 
 var imagesArray = [
-    "happy.jpg",
-    "happy2.jpg",
-    "happy3.jpg",
-    "happy4.jpg",
-    "happy5.jpg",
+    "images/happy.jpg",
+    "images/happy2.jpg",
+    "images/happy3.jpg",
+    "images/happy4.jpg",
+    "images/happy5.jpg",
 ]
 
 function createAndAppendElement(text, element) {

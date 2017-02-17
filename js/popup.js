@@ -15,10 +15,10 @@ var imagesArray = [
 ]
 
 function createAndAppendElement(text, element) {
-    var p = document.createElement(element);
+    var newElement = document.createElement(element);
     var text = document.createTextNode(text);
-    p.appendChild(text);
-    document.body.appendChild(p);
+    newElement.appendChild(text);
+    document.body.appendChild(newElement);
 }
 
 function createAndAppendImage(imageSrc) {
